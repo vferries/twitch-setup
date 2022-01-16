@@ -93,7 +93,7 @@ console.log(
 		'',
 		'If you are running Hello World, try this:',
 		'',
-		`http://localhost:${port}?titleText=Hello,+World!&titleColor=red`,
+		`http://localhost:${port}?videoPath=video.mp4`,
 		'',
 	].join('\n')
 );

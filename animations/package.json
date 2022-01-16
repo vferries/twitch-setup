@@ -1,10 +1,10 @@
 {
-	"name": "remotion-template",
+	"name": "animations",
 	"version": "1.0.0",
-	"description": "My Remotion video",
+	"description": "My Remotion animations",
 	"scripts": {
 		"start": "remotion preview src/index.tsx",
-		"build": "remotion render src/index.tsx Follow out/video.mp4",
+		"build": "remotion render src/index.tsx Full out/video.mp4",
 		"upgrade": "remotion upgrade",
 		"server": "ts-node server.tsx",
 		"test": "eslint src --ext ts,tsx,js,jsx && tsc"
@@ -26,6 +26,7 @@
 		"typescript": "4.4.2"
 	},
 	"devDependencies": {
+		"@remotion/media-utils": "^2.6.1",
 		"@types/express": "^4.17.9",
 		"@types/react": "^17.0.0",
 		"@types/web": "^0.0.46"

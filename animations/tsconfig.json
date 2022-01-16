@@ -5,9 +5,10 @@
 		"jsx": "react-jsx",
 		"outDir": "./dist",
 		"strict": true,
-		"noEmit": true,
+		"noEmit": false,
 		"lib": ["es2015"],
 		"esModuleInterop": true,
+		"declaration": true,
 		"skipLibCheck": true,
 		"forceConsistentCasingInFileNames": true
 	}
