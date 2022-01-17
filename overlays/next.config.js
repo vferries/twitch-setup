@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-    reactStrictMode: true,
-    disableStaticImages: true,
+    reactStrictMode: false,
     webpack: (config, options) => {
         config.module.rules.push({
             test: /\.(wav)$/,

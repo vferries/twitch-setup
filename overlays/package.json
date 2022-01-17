@@ -5,14 +5,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "video": "remotion preview remotion/index.tsx"
   },
   "dependencies": {
+    "@remotion/bundler": "^2.6.4",
+    "@remotion/cli": "^2.6.4",
     "@remotion/player": "^2.6.4",
+    "@remotion/renderer": "^2.6.4",
     "animations": "file:../animations",
     "next": "12.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "remotion": "^2.6.4"
   },
   "devDependencies": {
     "@types/node": "17.0.8",
